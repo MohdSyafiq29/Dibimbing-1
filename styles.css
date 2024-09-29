@@ -30,7 +30,7 @@ section{
 }
 
 .container{
-    background-image: url("../img/1.png");
+    background-image: url("1.png");
     height:800px;
     width: auto;
 }
