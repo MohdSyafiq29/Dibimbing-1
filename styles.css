@@ -1,0 +1,77 @@
+@media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+}
+.nav{
+    display:flex;
+    justify-content:space-around;
+    padding: 5px 0;
+    background-color:black;
+    opacity: 50%;
+}
+
+.nav ul{
+    list-style: none;
+    display:flex;
+    gap: 5rem;
+    color: aquamarine;
+    font-size: 20px;
+}
+
+.nav a{
+    color:white;
+    text-decoration: none;
+}
+
+section{
+  height:1000px;
+  width: auto;
+}
+
+.container{
+    background-image: url("../img/1.png");
+    height:800px;
+    width: auto;
+}
+
+#hero{
+    height: 720px;
+    bottom: 4rem;
+    align-items: center;
+    padding: 5rem 7rem; 
+}
+
+#name{
+    color:pink;
+}
+
+.main-container{
+    width: 1800px;
+    margin: 0 auto;
+}
+
+#services{
+    height: 500px;
+    padding: 9rem 0;
+    text-align: center;
+    background-color: gray;
+    border-radius: 0.7rem;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+}
+
+.pre-title{
+    padding-left: auto;
+   
+    
+    font-size: 3rem;
+}
+
+h1, h2, h3, h4, h5, h6, strong{
+    color: blueviolet;
+}
